@@ -84,7 +84,7 @@ app.get('/rest',(req,res) => {
 
 //MealType Route
 app.get('/meal',(req,res) => {
-  db.collection('mealtype').find().toArray((err,result) => {
+  db.collection('mealType').find().toArray((err,result) => {
     if(err) throw err;
     res.send(result)
   })
