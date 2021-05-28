@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = process.env.Port || 9900;
+const port = process.env.PORT || 9900;
 const mongo = require('mongodb');
 const MongoClient = mongo.MongoClient;
 //const mongourl="mongodb://localhost:27017";
